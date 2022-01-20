@@ -1,0 +1,97 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+  }
+  
+  html {
+    font-family: "Oswald", sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+
+.v-container {
+    color: #ffffff;
+    text-shadow: 2px 2px black;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+    background-image: url('gaining-muscle.jpg');
+  }
+
+  
+#workout-planning {
+    display: flex;
+    flex-direction: column;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+  }
+  
+  #workout-planning p {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+  
+  #workout-planning h2 {
+    text-align: left;
+  }
+  
+  .slide {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 4px #000000;
+    /* width: 48rem;
+    height: 27rem; */
+  }
+  
+  .slide table {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.75);
+    text-shadow: 0 0 4px #000000;
+    margin: 4rem auto 4rem auto;
+    width: 100;
+    font-size: 10pt;
+    border-collapse: collapse;
+  }
+  
+  .slide table,
+  th,
+  td {
+    border: 1px solid #177ddc;
+  }
+  
+#gaining-muscle {
+    background-image: url("../img/gaining-muscle.jpg");
+  }
+  
+  #losing-weight {
+    background-image: url("../img/losing-weight.jpg");
+  }
+  
+  #building-strength{
+    background-image: url("../img/building-strength.jpg");
+  }
+  
+  #building-stamina{
+    background-image: url("../img/building-stamina.jpg");
+  }
+  
+  #street-workout{
+    background-image: url("../img/street-workout.jpg");
+  }
+  
+  /* Exercise Guide */
+  
+  #exercise-guide select {
+    width: 30%;
+  }
+  
